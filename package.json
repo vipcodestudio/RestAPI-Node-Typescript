@@ -7,17 +7,7 @@
     "start": "npx tsc -w",
     "dev": "npx nodemon",
     "build": "tsc",
-    "format": "prettier --write .",
-    "prepare": "husky install",
-    "check-types": "tsc --pretty --noEmit",
-    "check-format": "prettier --check .",
-    "check-lint": "eslint . --ext ts --ext tsx --ext js"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npx pretty-quick --staged ng lint ng test",
-      "pre-push": "ng build --aot true"
-    }
+    "format": "prettier --write ."
   },
   "author": "Avip Syaifulloh",
   "license": "ISC",
