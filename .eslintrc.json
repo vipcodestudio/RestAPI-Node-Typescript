@@ -15,6 +15,8 @@
   "rules": {
     "@typescript-eslint/restrict-template-expressions": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
-    "@typescript-eslint/strict-boolean-expressions": "off"
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "no-return-assign": "off",
+    "array-callback-return": "off"
   }
 }
