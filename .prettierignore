@@ -8,7 +8,7 @@ readme.md
 nodemon.json
 yarn.lock
 dist
-bulid
+build
 public
 node_modules
 vercel.json
