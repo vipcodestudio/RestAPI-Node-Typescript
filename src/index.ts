@@ -4,6 +4,9 @@ import { routes } from './routes'
 import { logger } from './utils/logger'
 import cors from 'cors'
 
+// connect DB
+import './utils/connectDB'
+
 const app: Application = express()
 const port: Number = 4000
 
