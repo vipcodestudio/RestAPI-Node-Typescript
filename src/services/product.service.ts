@@ -21,3 +21,12 @@ export const getProductFromDB = async () => {
 export const getProductById = async (id: String) => {
   return await productModel.findOne({ product_id: id })
 }
+
+export const updateProductById = async (id: String, payload: ProductType) => {
+  return await productModel.findOneAndUpdate(
+    {
+      product_id: id
+    },
+    { $set: payload }
+  )
+}
