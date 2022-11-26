@@ -1,5 +1,6 @@
 #dependecies
 /node_modules
+.env
 
 # testing
 /coverage
